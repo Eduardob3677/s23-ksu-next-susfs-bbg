@@ -25,7 +25,7 @@ jobs:
             lib32readline-dev lib32z1-dev \
             libelf-dev liblz4-tool libssl-dev \
             lzop zlib1g-dev pahole dwarves cpio zip \
-            python3 python-is-python3 tar perl lz4 jq
+            python3 python-is-python3 tar perl lz4 jq curl
 
       - name: Clone source
         run: |
